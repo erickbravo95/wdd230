@@ -7,23 +7,33 @@ header{
     background-color: #1D4D72;
     color: white;
     font-family: "VT323", Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 img{
-    width: 20%;
     margin: 1%;
+    max-width: 100%;
+    height: auto;
+    width: 20%;
 }
 
 nav{
     background-color: black;
     font-family: "VT323", Helvetica, sans-serif;
-    text-align: center;
     font-size: 50px;
+    max-width: auto;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style-type: none;
 }
 nav a{
+    display: block;
+    text-align: center;
     text-decoration: none;
     color: white;
+    padding: 1rem;
 }
 nav a:hover{
     color: black;
@@ -38,29 +48,52 @@ ul {
 /* <----------------------------------------------------------> */
 
 main{
-    text-align: center;
+    display: grid;
+    grid-template-columns: 100%;
     font-family: "Space Mono", Helvetica, sans-serif;
+    grid-gap: 1rem;
 }
-h2{
+h2{ 
+    grid-column: 1/2;
+    text-align: center;
     font-family: "VT323", Helvetica, sans-serif;
     color: black;
     font-size: 40px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
 }
 
 h3{
     color: white;
     background-color: #1D4D72;
     margin: 0%;
+    padding: 20px;
+    border-radius: 5px 0px;
+    text-align: center;
 }
 
-.card {
-    display: grid;
-    grid-gap: 1rem;
+.card1 {
+    grid-column: 1/2;
     border: 3px solid #bebcbc;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 0%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.card2 {
+    grid-column: 1/2;
+    border: 3px solid #bebcbc;
+    border-radius: 10px;
+    padding: 0%;
+    margin-bottom: 5px;
+}
+
+.card1 ul {
+    text-align: left;
+}
+
+.card2 ul{
+    text-align: left;
 }
 
 /* <----------------------------------------------------------> */
@@ -70,6 +103,10 @@ footer{
     text-align: center;
     font-family: "VT323", Helvetica, sans-serif;
     font-size: 25px;
+}
+
+#last-modi {
+    margin-bottom: 0;
 }
 
 footer img{

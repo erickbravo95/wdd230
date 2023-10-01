@@ -11,6 +11,18 @@
         display: flex;
         justify-content: space-around;
     }
+    #hmenu {
+		display: none;
+	}
+	.navi {
+		flex-direction: row;
+	}
+	.navi li {
+		display: block;
+		flex: 1 1 100%;
+	}
+/* <----------------------------------------------------------> */
+
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -31,14 +43,5 @@
     h3{
         text-align: left;
     }
-	#hmenu {
-		display: none; /* hide hamburger button */
-	}
-	.navi {
-		flex-direction: row;
-	}
-	.navi li {
-		display: block;
-		flex: 1 1 100%;
-	}
+
 }

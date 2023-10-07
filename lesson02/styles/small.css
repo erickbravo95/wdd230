@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=VT323&display=swap');
+*{
+    font-family: "Space Mono", Helvetica, sans-serif;
+}
+header{
+    background-color: #0A2032;
+    color: white;
+    text-align: center;
+    font-family: "VT323", Helvetica, sans-serif;
+}
+/* <----------------------------------------------------------> */
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+section{
+    background-color: #EEEEEE;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 10px 10px 0px 0px;
+}
+img{
+    max-width: 50%;
+    border: 1px solid rgba(0,0,0,.3);
+}
+h3{
+    background-color: #3A4958;
+    color: white;
+    margin: 0%;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* <----------------------------------------------------------> */
+footer{
+    background-color: #0A2032;
+    color: white;
+    text-align: center;
+}

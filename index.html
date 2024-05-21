@@ -5,26 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Main site for the WDD 230 - Web Frontend Development class">
     <meta name="author" content="Erick Bravo">
-    <!--<meta property="og:url" content="https://erickbravo95.github.io/wdd230/" />
-    <meta property="og:type" content="website" />
     <meta property="og:title" content="WDD 230 Class Website" />
+    <meta property="og:type" content="website" />
     <meta property="og:image" content="https://images.unsplash.com/photo-1628004566999-83b23fdc411f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3VheWFxdWlsfGVufDB8fDB8fHww&w=1000&q=80" />
-    <link rel="stylesheet" href="styles/normalize.css">-->
+    <meta property="og:url" content="https://erickbravo95.github.io/wdd230/" />
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-    <!--<link rel="icon" href="images/favicon.ico">-->
+    <link rel="icon" href="images/favicon.ico">
     <title>Erick Bravo - WDD 230 - Web Frontend Development</title>
 </head>
 <body>
     <header>
         <img id="PicErick" src="/wdd230/images/rsz_cv_foto.jpg" alt="profile picture">
         <h1>Erick E. Bravo</h1>
+        <img id="darkbutton" src="images/dark-theme-svgrepo-com.svg" alt="dark mode">
+        
     </header>
-    <nav>
-        <!--<button id="hmenu"></button>-->
+    <nav id="animateme">
+        <button id="hmenu"></button>
         <ul class="navi">
             <li><a href="#">Home</a></li>
             <li><a href="chamber/">Chamber</a></li>
@@ -38,7 +40,7 @@
             <h3>Learning Activities</h3>
             <ul style="list-style: none;">
                 <li>Week 01: <a href="lesson01/holygrail.html">Layout </a>|<a href="lesson01/media-query.html"> Media Query </a>|<a href="https://codepen.io/Erick-Bravo/pen/abPErGB"> Js Pen</a></li>
-                <li>Week 02:<!--<a href="lesson01/media-query.html">Media Query</a>|<a href="lesson02/design.html">Design Principles</a>|<a href="lesson02/design-principles.html">Design Principles Document</a></li>-->
+                <li>Week 02: <a href="lesson02/design.html">Design Principles</a>|<a href="https://codepen.io/Erick-Bravo/pen/mdYJKZQ">Responsive "Hamburger" Menu</a></li>
                 <li>Week 03:<!--<a href="lesson03/images/Combinators.png">CSS Combinators</a>|<a href="https://codepen.io/Erick-Bravo/pen/MWZBvBj">CSS Pseudo-elements</a>|<a href="https://codepen.io/Erick-Bravo/pen/JjwBrpx">Responsive "Hamburger" Menu</a></li>-->
                 <li>Week 04:<!--<a href="https://codepen.io/Erick-Bravo/pen/MWZZmde?editors=1100">CSS Pseudo-Classes</a></li>-->
                 <li>Week 05:</li>
@@ -57,6 +59,7 @@
         <p id="last-modi"></p>
     </footer>
 </body>
-<!--<script src="scripts/hamburger_menu.js"></script>-->
+<script src="scripts/darkbutton.js"></script>
+<script src="scripts/hamburger_menu.js"></script>
 <script src="scripts/getdates.js"></script>
 </html>

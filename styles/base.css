@@ -14,6 +14,7 @@ header{
     background-color: #1D4D72;
     color: white;
     font-size: smaller;
+    position: relative;
 }
 h1{
     font-size: 40px;
@@ -34,7 +35,6 @@ h1{
     padding: 0;
 }
 .navi li{
-    display: block;
 	width: 100%;
 }
 .navi a{
@@ -51,16 +51,16 @@ h1{
     transition: 0.5s;
 }
 
-/*
 #hmenu {
-	font-size: 1.5rem;
-	border: 1px solid rgba(0,0,0,.3);
+	font-size: 2rem;
+	border: none;
 	padding: .25rem .75rem;
-	background-color: #eee;
-	color: #000;
+	background: none;
+	color: white;
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
+    cursor: pointer;
 }
 #hmenu::before {
 	content: "☰";
@@ -69,14 +69,24 @@ h1{
 	content: "✕";
 }
 
-.open li {
-	display: block;
-	width: 100%;
+nav{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
 }
-.open li a {
-	display: block;
+
+nav ul {overflow: hidden;}
+
+nav.open {
+    grid-template-rows: 1fr;
 }
-*/
+
+#darkbutton{
+    position: absolute;
+    top: 5px;
+    right: 60px;
+    cursor: pointer;
+}
 
 /* <----------------------------------------------------------> */
 

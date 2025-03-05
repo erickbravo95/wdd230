@@ -1,29 +1,19 @@
 :root {
-    /* change the values below to your colors from your palette */
     --primary-color: #1C3156   ;
     --secondary-color: #FFFFFF ;
     --accent1-color: #EB901C;
     --accent2-color: #B7D9F2;
   
-    /* change the values below to your chosen font(s) */
     --heading-font: "Yrsa", serif;
     --paragraph-font: "Reddit Sans", sans-serif;
   
-    /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #1C3156;  /* headlines on a white background */ 
-    --headline-color-on-color: #FFFFFF; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #1C3156; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
+    --headline-color-on-white: #1C3156;   
+    --headline-color-on-color: #FFFFFF; 
+    --paragraph-color-on-white: #1C3156; 
+    --paragraph-color-on-color: #FFFFFF; 
     --paragraph-background-color: #1C3156  ;
-    --nav-link-color: #FFFFFF;
-    --nav-background-color: #1C3156;
-    --nav-hover-link-color: #EB901C;
-    --nav-hover-background-color: #B7D9F2;
   }
-  
-  
-  /*  Look around below...but DON'T CHANGE ANYTHING! */
-  
+
   body {
     max-width: 960px;
     margin: 0 auto;
@@ -90,29 +80,6 @@
   p.colored {
     background-color: var(--paragraph-background-color);
     color: var(--paragraph-color-on-color);
-  }
-  nav {
-    background-color: var(--nav-background-color);
-    line-height: 3em;
-    text-align: center;
-    font-size: 1.2em;
-  }
-  nav  {
-    list-style-type: none;
-    display: flex;
-  }
-  nav a {
-    padding:1em;
-    min-width: 120px;
-    text-decoration: none;
-    padding: 10px;
-  }
-  nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-  }
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
   }
   .sitemap {
     display: grid;

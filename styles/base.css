@@ -29,11 +29,11 @@ h1{
 .navi{
     background-color: black;
     font-size: 30px;
-    max-width: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 .navi li{
 	width: 100%;
 }
